@@ -1,0 +1,20 @@
+[package]
+name = "TuroNet_Rust"
+version = "0.1.0"
+edition = "2021"
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+cortex-m = "0.7"
+cortex-m-rt = "0.7"
+panic-halt = "0.2"
+usb-device = "0.2.7"
+usbd-serial = "0.1.1"
+stm32f0xx-hal = { version = "0.18", features = ["rt", "stm32f042", "stm32-usbd"]}
+
+[profile.dev]
+opt-level = 1
+
+[profile.release]
+opt-level = 3
