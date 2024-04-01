@@ -1,5 +1,5 @@
 
-![workflow](https://github.com/javifercep/turonet-rust/actions/workflows/rust.yml/badge.svg)
+[![Rust](https://github.com/javifercep/turonet-rs/actions/workflows/rust.yml/badge.svg)](https://github.com/javifercep/turonet-rs/actions/workflows/rust.yml)
 
 # Turonet - Rust
 
